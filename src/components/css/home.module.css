@@ -1,0 +1,25 @@
+.main__content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    width: 1440px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    scrollbar-width: none;
+    width: 100%;
+}
+
+.left__box {
+    flex: 0.2 1;
+    margin-right: 0;
+    width: 100%;
+}
+
+.right__box {
+    flex: 0.8 1;
+    background-color: #f2f2f2;
+    margin-left: 20px;
+    width: 100%;
+}

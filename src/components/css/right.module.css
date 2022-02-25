@@ -1,0 +1,8 @@
+.main_board{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    flex: 1 1;
+}

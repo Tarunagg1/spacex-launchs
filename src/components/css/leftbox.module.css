@@ -1,0 +1,77 @@
+.main {
+  flex: 0.2 1;
+  margin-right: 0;
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  width: 100%;
+  flex-direction: column;
+  border-radius: 2%;
+  padding-bottom: 30px;
+}
+
+.action {
+  text-align: center;
+}
+
+.action::after {
+  content: "";
+  height: 2px;
+  display: block;
+  position: relative;
+  top: 2px !important;
+  max-width: 200px;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.322);
+  left: 25%;
+}
+
+.pannel__years {
+  display: flex;
+  flex: 1 1;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 300px;
+}
+
+.box__button {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-basis: 50%;
+}
+
+.year__button {
+  background-color: #c5df9d;
+  color: #000;
+  border-radius: 4px;
+  margin-bottom: 10%;
+  padding: 6px 16px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.75;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+}
+
+.year__button:hover {
+  background-color: #b1c691;
+}
+.button__active {
+  border-radius: 4px;
+  margin-bottom: 20px;
+  justify-content: center;
+  background-color: #7aba02 !important;
+  align-items: center;
+}
