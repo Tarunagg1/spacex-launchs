@@ -65,13 +65,17 @@
   border: none;
 }
 
-.year__button:hover {
+/* .year__button:hover {
   background-color: #b1c691;
-}
+} */
+
 .button__active {
   border-radius: 4px;
-  margin-bottom: 20px;
   justify-content: center;
-  background-color: #7aba02 !important;
+  background-color: #7aba02;
   align-items: center;
+}
+
+.button__active:hover {
+  background-color: #b1c691;
 }
